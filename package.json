@@ -1,0 +1,17 @@
+{
+  "name": "contactUsMigrator",
+  "version": "1.0.0",
+  "description": "NodeJS script to migrate existing buildfire contactUsData data to new plugin data",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "buildfire"
+  ],
+  "dependencies": {
+    "async": "^1.4.2",
+    "express": "*",
+    "node-geocoder": "^3.0.2"
+  }
+}
